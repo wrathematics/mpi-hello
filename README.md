@@ -13,3 +13,7 @@ Options:
   -o	only print one rank per node
   -h	this help message
 ```
+
+# Compiling
+
+Set `MPICC` appropriately in the Makefile (`cc` on a Cray, `mpicc` probably everywhere else) and type `make`.
